@@ -2,7 +2,7 @@
  * VEmpresa.h
  *
  *  Created on: 30/05/2016
- *      Author: Macbook
+ *      Author: Silvio Bigotto
  */
 
 #ifndef VEMPRESA_H_

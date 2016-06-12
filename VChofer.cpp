@@ -2,14 +2,12 @@
  * VChofer.cpp
  *
  *  Created on: 30/05/2016
- *      Author: Macbook
+ *      Author: Silvio Bigotto
  */
 
 #include "VChofer.h"
 
-VChofer::VChofer() {
-	// TODO Auto-generated constructor stub
-}
+VChofer::VChofer() {}
 string VChofer::leer_cedula(){
 	string ced;
 	cout<<"Cedula: ";

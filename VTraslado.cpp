@@ -2,17 +2,15 @@
  * VTraslado.cpp
  *
  *  Created on: 30/05/2016
- *      Author: Macbook
+ *      Author: Silvio Bigotto
  */
 
 #include "VTraslado.h"
 
-VTraslado::VTraslado() {
-	// TODO Auto-generated constructor stub
-}
+VTraslado::VTraslado() {}
 int VTraslado::leer_destino(){
 	int des;
-	do{
+	do {
 	cout<<"Destino (1. Este, 2. Oeste, 3. Centro): ";
 	cin>>des;
 	if (des<1 or des>3){

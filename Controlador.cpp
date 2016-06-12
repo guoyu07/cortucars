@@ -2,14 +2,13 @@
  * Controlador.cpp
  *
  *  Created on: 30/05/2016
- *      Author: Macbook
+ *      Author: Silvio Bigotto
  */
 
 #include "Controlador.h"
 
-Controlador::Controlador() {
-	// TODO Auto-generated constructor stub
-}
+Controlador::Controlador() {}
+
 void Controlador::procesar_choferes(){
 	MTraslado mt;
 	VTraslado vt;
@@ -18,7 +17,7 @@ void Controlador::procesar_choferes(){
 	string ced,nomb;
 	int resp,ct,des;
 	float ck;
-	do{
+	do {
 		cout<<"Datos del Chofer"<<endl;
 		cout<<"________________"<<endl;
 		ced=vc.leer_cedula();
@@ -36,7 +35,7 @@ void Controlador::procesar_choferes(){
 			mt.set_destino(des);
 			mt.set_cant_km(ck);
 			mc.procesar_traslado(mt);
-			me.procesar_traslado(mt);
+      me.procesar_traslado(mt);
 		}
 		vc.imprimir_chofer(mc.get_cedula(), mc.calc_sueldo_base());
 		me.procesar_chofer(mc);

@@ -2,8 +2,9 @@
  * Principal.cpp
  *
  *  Created on: 30/05/2016
- *      Author: Macbook
+ *      Author: Silvio Bigotto
  */
+
 #include "Controlador.h"
 
 int main (){

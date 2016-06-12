@@ -2,7 +2,7 @@
  * MChofer.h
  *
  *  Created on: 30/05/2016
- *      Author: Macbook
+ *      Author: Silvio Bigotto
  */
 
 #ifndef MCHOFER_H_

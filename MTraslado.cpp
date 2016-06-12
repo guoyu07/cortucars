@@ -2,13 +2,12 @@
  * MTraslado.cpp
  *
  *  Created on: 30/05/2016
- *      Author: Macbook
+ *      Author: Silvio Bigotto
  */
 
 #include "MTraslado.h"
 
 MTraslado::MTraslado() {
-	// TODO Auto-generated constructor stub
 	destino=cant_km=0;
 }
 void MTraslado::set_cant_km(float ck){
